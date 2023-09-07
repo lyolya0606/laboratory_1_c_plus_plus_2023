@@ -29,13 +29,13 @@ int main() {
             switch (user_choice) {
 
                 case TEXT_WORK: {
-                    cout << "write text:" << endl;
-                    string text = "";
-                    getline(cin, text, '\n');
-
-                    cout << "write substring:" << endl;
-                    string substr = "";
-                    getline(cin, substr, '\n');
+//                    cout << "write text:" << endl;
+//                    string text = "";
+//                    getline(cin, text, '\n');
+//
+//                    cout << "write substring:" << endl;
+//                    string substr = "";
+//                    getline(cin, substr, '\n');
 
                     is_a_substring(text, substr);
                     //WorkingWithWords();

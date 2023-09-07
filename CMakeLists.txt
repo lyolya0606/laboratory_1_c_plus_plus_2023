@@ -10,4 +10,7 @@ add_executable(laboratory_1_c__ main.cpp
         checking_errors.cpp
         checking_errors.h
         substring_search.cpp
-        substring_search.h)
+        substring_search.h
+        file_errors.cpp
+        file_errors.h
+        input.cpp)

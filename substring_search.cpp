@@ -9,6 +9,6 @@ using namespace std;
 
 void is_a_substring(string sentence, string substr) {
     if (sentence.find(substr) != std::string::npos) {
-        cout << "find!!!!!!" << endl;
+        cout << "yesss!!!!!!" << endl;
     }
 }

@@ -1,11 +1,7 @@
 # ninja log v5
 2	1068	1694009168399338108	CMakeFiles/laboratory_1_c__.dir/greeting.cpp.o	88667767f5b76ec6
-1071	1164	1694009168503433644	laboratory_1_c__	88c2eda29bd87c39
-0	1070	1694009168399339024	CMakeFiles/laboratory_1_c__.dir/main.cpp.o	279f4387f3525845
-2	1071	1694009168399339608	CMakeFiles/laboratory_1_c__.dir/menu.cpp.o	ba4728fd958fb7e1
-4	1145	1694026988718794129	CMakeFiles/laboratory_1_c__.dir/checking_errors.cpp.o	b3598a4b99e259e3
-3	1146	1694026988721645046	CMakeFiles/laboratory_1_c__.dir/main.cpp.o	279f4387f3525845
-5	1146	1694026988718793504	CMakeFiles/laboratory_1_c__.dir/substring_search.cpp.o	ce34c743a53366ff
-1146	1259	1694026988839142512	laboratory_1_c__	1c982681596f5cd5
-4	976	1694027110594636326	CMakeFiles/laboratory_1_c__.dir/substring_search.cpp.o	ce34c743a53366ff
 976	1068	1694027110692314833	laboratory_1_c__	1c982681596f5cd5
+3	1146	1694026988721645046	CMakeFiles/laboratory_1_c__.dir/main.cpp.o	279f4387f3525845
+4	1145	1694026988718794129	CMakeFiles/laboratory_1_c__.dir/checking_errors.cpp.o	b3598a4b99e259e3
+2	1071	1694009168399339608	CMakeFiles/laboratory_1_c__.dir/menu.cpp.o	ba4728fd958fb7e1
+4	976	1694027110594636326	CMakeFiles/laboratory_1_c__.dir/substring_search.cpp.o	ce34c743a53366ff
