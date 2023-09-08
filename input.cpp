@@ -32,23 +32,16 @@ string file_input() {
 
 
 string keyboard_input() {
-    cout << "write text:" << endl;
+    cout << "Write a text:" << endl;
     string text {};
     getline(cin, text, '\n');
-
     return text;
-//    const string END {"end"};
-//    string str {};
-//    cout << endl << "Enter the text. If you want to finish, write \"" << END << "\"" << endl;
-//    while (str != END) {
-//        getline(cin, str);
-//        if (str == END) {
-//            break;
-//        }
-//        if (!are_good_symbols(str)) {
-//            cout << "You entered bad symbols. Please, try again." << endl;
-//        } else {
-//            lines.push_back(str);
-//        }
-//    }
+}
+
+
+string substring_input() {
+    cout << "Write a substring:" << endl;
+    string text {};
+    getline(cin, text, '\n');
+    return text;
 }

@@ -18,7 +18,7 @@ enum end_of_program {
 
 int main() {
     greeting();
-    int user_choice = 0;
+    int user_choice {};
     bool stop;
 
     do {
@@ -29,6 +29,7 @@ int main() {
             switch (user_choice) {
 
                 case TEXT_WORK: {
+                    work_with_text();
 //                    cout << "write text:" << endl;
 //                    string text = "";
 //                    getline(cin, text, '\n');
@@ -37,7 +38,7 @@ int main() {
 //                    string substr = "";
 //                    getline(cin, substr, '\n');
 
-                    is_a_substring(text, substr);
+                    //is_a_substring(text, substr);
                     //WorkingWithWords();
                     stop = true;
                     break;

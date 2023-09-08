@@ -4,11 +4,65 @@
 #include <iostream>
 #include <string>
 #include "substring_search.h"
+#include "beginning.h"
+#include "checking_errors.h"
+#include "input.h"
 
 using namespace std;
 
-void is_a_substring(string sentence, string substr) {
+enum input_choice {
+    KEYBOARD_INPUT = 1,
+    FILE_INPUT
+};
+
+int is_a_substring(string sentence, string substr) {
     if (sentence.find(substr) != std::string::npos) {
-        cout << "yesss!!!!!!" << endl;
+        return sentence.find(substr);
+    } else {
+        return -1;
     }
+}
+
+
+void work_with_text() {
+    const int IS_NOT_SUBSTRING {-1};
+    int user_choice {};
+    bool stop;
+    string text {};
+
+    do {
+        menu_work_text();
+        user_choice = get_int();
+
+        switch (user_choice) {
+
+            case KEYBOARD_INPUT: {
+                text = keyboard_input();
+                stop = true;
+            }
+                break;
+
+            case FILE_INPUT: {
+                text = file_input();
+                stop = true;
+            }
+                break;
+
+            default:
+                cout << "There is no such choice!" << endl;
+                stop = false;
+        }
+
+    } while (!stop);
+
+    string substring = substring_input();
+    int index_of_substring = is_a_substring(text, substring);
+
+    if (index_of_substring == IS_NOT_SUBSTRING) {
+        cout << "This isn't a substring of a given text(" << endl;
+    } else {
+
+    };
+
+
 }
