@@ -91,6 +91,18 @@ build CMakeFiles/laboratory_1_c__.dir/input.cpp.o: CXX_COMPILER__laboratory_1_c_
   OBJECT_DIR = CMakeFiles/laboratory_1_c__.dir
   OBJECT_FILE_DIR = CMakeFiles/laboratory_1_c__.dir
 
+build CMakeFiles/laboratory_1_c__.dir/saving_files.cpp.o: CXX_COMPILER__laboratory_1_c___unscanned_Debug /Users/lyolya/CLionProjects/laboratory_1_c++/saving_files.cpp || cmake_object_order_depends_target_laboratory_1_c__
+  DEP_FILE = CMakeFiles/laboratory_1_c__.dir/saving_files.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/laboratory_1_c__.dir
+  OBJECT_FILE_DIR = CMakeFiles/laboratory_1_c__.dir
+
+build CMakeFiles/laboratory_1_c__.dir/test.cpp.o: CXX_COMPILER__laboratory_1_c___unscanned_Debug /Users/lyolya/CLionProjects/laboratory_1_c++/test.cpp || cmake_object_order_depends_target_laboratory_1_c__
+  DEP_FILE = CMakeFiles/laboratory_1_c__.dir/test.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/laboratory_1_c__.dir
+  OBJECT_FILE_DIR = CMakeFiles/laboratory_1_c__.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target laboratory_1_c__
@@ -99,7 +111,7 @@ build CMakeFiles/laboratory_1_c__.dir/input.cpp.o: CXX_COMPILER__laboratory_1_c_
 #############################################
 # Link the executable laboratory_1_c__
 
-build laboratory_1_c__: CXX_EXECUTABLE_LINKER__laboratory_1_c___Debug CMakeFiles/laboratory_1_c__.dir/main.cpp.o CMakeFiles/laboratory_1_c__.dir/greeting.cpp.o CMakeFiles/laboratory_1_c__.dir/menu.cpp.o CMakeFiles/laboratory_1_c__.dir/checking_errors.cpp.o CMakeFiles/laboratory_1_c__.dir/substring_search.cpp.o CMakeFiles/laboratory_1_c__.dir/file_errors.cpp.o CMakeFiles/laboratory_1_c__.dir/input.cpp.o
+build laboratory_1_c__: CXX_EXECUTABLE_LINKER__laboratory_1_c___Debug CMakeFiles/laboratory_1_c__.dir/main.cpp.o CMakeFiles/laboratory_1_c__.dir/greeting.cpp.o CMakeFiles/laboratory_1_c__.dir/menu.cpp.o CMakeFiles/laboratory_1_c__.dir/checking_errors.cpp.o CMakeFiles/laboratory_1_c__.dir/substring_search.cpp.o CMakeFiles/laboratory_1_c__.dir/file_errors.cpp.o CMakeFiles/laboratory_1_c__.dir/input.cpp.o CMakeFiles/laboratory_1_c__.dir/saving_files.cpp.o CMakeFiles/laboratory_1_c__.dir/test.cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/laboratory_1_c__.dir
   POST_BUILD = :

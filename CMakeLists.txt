@@ -14,4 +14,8 @@ add_executable(laboratory_1_c__ main.cpp
         file_errors.cpp
         file_errors.h
         input.cpp
-        input.h)
+        input.h
+        saving_files.cpp
+        saving_files.h
+        test.cpp
+        test.h)

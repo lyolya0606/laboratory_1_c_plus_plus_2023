@@ -32,7 +32,7 @@ string file_input() {
 
 
 string keyboard_input() {
-    cout << "Write a text:" << endl;
+    cout << endl << "Write the text:" << endl;
     string text {};
     getline(cin, text, '\n');
     return text;
@@ -40,7 +40,7 @@ string keyboard_input() {
 
 
 string substring_input() {
-    cout << "Write a substring:" << endl;
+    cout << endl << "Write the substring:" << endl;
     string text {};
     getline(cin, text, '\n');
     return text;

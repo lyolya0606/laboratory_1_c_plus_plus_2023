@@ -2,6 +2,7 @@
 #include "beginning.h"
 #include "checking_errors.h"
 #include "substring_search.h"
+#include "test.h"
 
 using  namespace std;
 
@@ -18,7 +19,7 @@ enum end_of_program {
 
 int main() {
     greeting();
-    int user_choice {};
+    int user_choice;
     bool stop;
 
     do {
@@ -30,22 +31,12 @@ int main() {
 
                 case TEXT_WORK: {
                     work_with_text();
-//                    cout << "write text:" << endl;
-//                    string text = "";
-//                    getline(cin, text, '\n');
-//
-//                    cout << "write substring:" << endl;
-//                    string substr = "";
-//                    getline(cin, substr, '\n');
-
-                    //is_a_substring(text, substr);
-                    //WorkingWithWords();
                     stop = true;
                     break;
                 }
 
                 case TEXT_TEST:
-                    //CheckingTests();
+                    checking_tests();
                     stop = true;
                     break;
 
